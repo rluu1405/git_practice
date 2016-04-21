@@ -1,7 +1,8 @@
 #include<iostream>
 int mult(int a, int b)
 {
-	return (a*b);
+	unsigned int result = ~(a^b);
+	return (result);
 }
 
 int main(){
