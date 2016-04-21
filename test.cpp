@@ -1,7 +1,11 @@
 #include<iostream>
-
 int sum(int num1, int num2){
   return num1 + num2;
+}
+
+int mult(int a, int b)
+{
+  return (a*b);
 }
 
 int main(){
