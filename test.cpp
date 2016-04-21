@@ -9,7 +9,7 @@ int sum(int num1, int num2){
 
 int mult(int a, int b)
 {
-  return (a*b);
+	return (a*b);
 }
 
 int main(){
