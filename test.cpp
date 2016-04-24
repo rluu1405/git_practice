@@ -2,6 +2,11 @@
 
 using namespace std;
 
+int multByTwo(int n)
+{
+	return (n * 2);
+}
+
 int main(){
   int num;
   cout << "Enter Number: ";
