@@ -6,6 +6,11 @@ int sum(int num1, int num2){
   return num1 + num2;
 }
 
+int multByTwo(int n)
+{
+  return (n * 2);
+}
+
 int main(){
   int num, num2;
   cout << "Enter Number: ";
